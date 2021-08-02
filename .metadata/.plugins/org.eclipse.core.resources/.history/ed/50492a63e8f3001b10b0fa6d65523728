@@ -1,0 +1,19 @@
+package br.edu.infnet.model.domain;
+
+public class Funcionario {
+	
+	private String nome;
+	private int idade;
+	private float salarioBase;
+	private boolean doutorado;
+	private float  salarioLiquido;
+
+	
+	private float calcularSalarioLiquido() {
+		return doutorado ? salarioBase * 2 : salarioBase;
+	}
+	
+	protected void exibir() {
+		System.out.println("Funcionário do mês!!");
+	}
+}

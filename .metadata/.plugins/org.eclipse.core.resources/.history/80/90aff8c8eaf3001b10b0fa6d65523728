@@ -1,0 +1,10 @@
+package br.edu.infnet.model.domain;
+
+public class Professor extends Funcionario {
+	
+	private int qtdeDisciplina;
+	
+	protected void impressao() {
+		System.out.println("Quantidade de Disciplinas: " + qtdeDisciplina);
+	}
+}

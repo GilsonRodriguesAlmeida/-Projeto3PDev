@@ -1,0 +1,10 @@
+package br.edu.infnet.model.domain;
+
+public class Coordenador extends Funcionario {
+	
+	private String curso;
+	
+	protected  void impressao() {
+		System.out.println("Curso: " + curso);
+	}
+}
